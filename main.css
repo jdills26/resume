@@ -1,0 +1,64 @@
+/*main.css*/
+html, body, h1. h2. h3, h4, p, div, ul, ol {
+	padding:0;
+	border:0;
+	margin:0;
+	font:inherit;
+	font-size: 100%;
+}
+h1{
+	font-size: 70px; 
+	font-weight: bold;
+	text-align: center;
+	color: darkblue;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+h2{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	color: #999999;
+	width: 700px;
+    margin: 0 auto;
+}
+h3{
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid #555555;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin: 20px 0 20px 0;
+}
+p{ 
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Atitlan_Lake.jpg/900px-Atitlan_Lake.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px 0 10px 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.tagline{
+	padding: 20px 0 20px 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.education {
+	width: 700px;
+	margin: 0 auto;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	list-style-type: none;
+}
+.experience, .skills{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: left;
+}
+.education ul, .experience ul, .skills ul{
+	list-style-type: none;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.footer{
+	text-align: center;
+}
